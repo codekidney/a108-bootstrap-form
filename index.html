@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/fdcd949469.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+    <header>
+        <div class="container">
+
+            <nav class="navbar navbar-expand-sm">
+                <a class="navbar-brand" href="#">Klub podróżniczy</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path></svg>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Dołącz do nas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inspiracje</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="join invert">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="container">
+                        <div class="form-header px-4 py-3">
+                            <i class="float-right fas fa-pencil-alt"></i>
+                            <h2>Dołącz do nas</h2>
+                            <p class="m-0">Wypełnij zgłoszenie na członka klubu</p>
+                        </div>
+                        <form class="p-3 rounded-bottom">
+                            <div class="form-group">
+                                <input class="d-block w-100 rounded px-3 py-2" type="text" name="user_name" id="user_name" placeholder="Imię">
+                            </div>
+                            <div class="form-group">
+                                <input class="d-block w-100 rounded px-3 py-2" type="email" name="user_email" id="user_email" placeholder="E-mail">
+                            </div>
+                            <div class="form-group">
+                                <input class="d-block w-100 rounded px-3 py-2" type="text" name="user_phone" id="user_phone" placeholder="Telefon">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="d-block w-100 rounded px-3 py-2" name="user_description" id="user_description" placeholder="Kilka słów o sobie" cols="30" rows="3"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary d-block w-100 text-center">Zapisz się!</button>
+                            </div>
+                            <div class="form-group">
+                                <p class="text-center">
+                                    <small>
+                                        Wypełniając zgłoszenie wyrażam zgodę na przetwarzanie danych zgodnie z <a href="#">polityka prywatności</a>
+                                    </small>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center gutter-pt-4">
+                    <h2 class="font-weight-bold">Świat jest na wyciągnięcie ręki</h2>
+                    <p>Poznaj ludzi, którzy łączą wspólną pasję do podróżowania. Przekonaj się jak wygląda życia bez granic</p>
+                    <p>
+                        <a href="#" class="btn btn-primary">Znajdź nas <i class="fas fa-angle-right"></i></a>
+                        <a href="#" class="btn btn-default">Dowiedz się więcej <i class="far fa-lightbulb"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="inspiration">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-block w-80">
+                        <iframe src="https://player.vimeo.com/video/282992170?title=0&byline=0&portrait=0" width="640" height="338" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <h3>Inspirujemy</h3>
+                    <p>Poznaj historię ludzdzi, którzy zrealizowali swoje marzenia</p>
+                    <p>Podróżowanie pozwala poznać Świat i odryć siebie. Spełniaj swoje marzenia i zdobywaj nowe pasje. Daj się ponieść przygodzie i dołąćz do grona pasjonatów, którzy codziennie udowadniają, że nie ma rzeczy niemożliwych.</p>
+                    <p><a href="#">Więcej historii</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>O nas</h3>
+                    <p>Naszym głównym celem jest wymiana doświadczeń  między podróżnikami podczas cyklicznych spotkań. Naszym największym kapitałem jest wiedza i zaangażowanie naszych członków</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Kontakt</h3>
+                    <p><a href="mailto:klub@podroznika.pl">klub@podroznika.pl</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

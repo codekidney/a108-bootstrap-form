@@ -1,0 +1,77 @@
+/* Colors */
+form {
+  background: rgba(0, 0, 0, 0.3); }
+
+.form-header {
+  background: rgba(0, 0, 0, 0.35); }
+  .form-header .fa, .form-header .fas {
+    font-size: 46px; }
+
+body {
+  font-family: 'Raleway', sans-serif; }
+
+.btn {
+  padding: .6rem 1.4rem; }
+  .btn-primary {
+    background-color: #e38f42;
+    border-color: #e38f42;
+    color: #fff; }
+    .btn-primary:hover, .btn-primary:focus {
+      background-color: #d3751f;
+      border-color: #d3751f;
+      color: #fff; }
+  .btn-default {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3); }
+    .btn-default:hover, .btn-default:focus {
+      color: #fff;
+      background: rgba(0, 0, 0, 0.8); }
+
+.navbar-toggler {
+  border-color: #c2c2c2; }
+  .navbar-toggler-icon {
+    color: #c2c2c2; }
+
+section, footer {
+  padding: 90px 0; }
+
+iframe {
+  width: 100% !important;
+  height: auto !important; }
+
+header {
+  background-color: #444444; }
+  header a {
+    color: #c2c2c2; }
+
+a {
+  color: #e38f42; }
+  a:hover, a:focus {
+    color: #eaa96e; }
+
+section.invert {
+  color: #c2c2c2; }
+  section.invert h2, section.invert h3, section.invert h4 {
+    color: #fff; }
+
+section.join {
+  background: url("../images/form-background.jpg") no-repeat top center;
+  background-size: cover; }
+
+footer {
+  background-color: #f8f8f8; }
+
+.gutter-pt-1 {
+  padding-top: 30px; }
+
+.gutter-pt-2 {
+  padding-top: 60px; }
+
+.gutter-pt-3 {
+  padding-top: 90px; }
+
+.gutter-pt-4 {
+  padding-top: 120px; }
+
+.gutter-pt-5 {
+  padding-top: 150px; }
